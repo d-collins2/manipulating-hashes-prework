@@ -14,6 +14,11 @@ def first_challenge
   }
 
   #your code here
+  contacts.each do |k, v|
+    k.each do |k1, v1| 
+      v1.delete(strawberry)
+    end 
+  end 
 
 
   #remember to return your newly altered contacts hash!
