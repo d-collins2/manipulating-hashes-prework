@@ -16,7 +16,7 @@ def first_challenge
   #your code here
   contacts.each do |k, v|
     v.each do |k1, v1|
-      if v1 == :favorite_icecream_flavors 
+      if k1 == :favorite_icecream_flavors 
         v1.each {|flavor| flavor.delete if flavor == "strawberry"}
       end 
     end
