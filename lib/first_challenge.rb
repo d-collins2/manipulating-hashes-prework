@@ -15,8 +15,8 @@ def first_challenge
 
   #your code here
   contacts.each do |k, v|
-    k.each do |k1, v1| 
-      v1.delete(strawberry)
+    v.each do |el| 
+      el.delete(strawberry)
     end 
   end 
 
